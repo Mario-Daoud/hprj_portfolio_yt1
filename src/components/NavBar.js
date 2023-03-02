@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from '../assets/img/logo.svg';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import logo from '../assets/img/MDlogo.png';
+import linkedInIcon from '../assets/img/nav-icon1.svg';
+import githubIcon from '../assets/img/nav-icon-4.png';
+import booksIcon from '../assets/img/studies.png';
 
 export const NavBar = () => {
 
@@ -47,14 +47,14 @@ export const NavBar = () => {
                     </Nav>
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#">
-                                <img src={navIcon1} alt="" />
+                            <a href="https://www.linkedin.com/in/mario-daoud-bb5628268/">
+                                <img src={linkedInIcon} alt="linkedInIcon" />
                             </a>
-                            <a href="#">
-                                <img src={navIcon2} alt="" />
+                            <a href="https://github.com/Mario-Daoud">
+                                <img src={githubIcon} alt="githubIcon" />
                             </a>
-                            <a href="#">
-                                <img src={navIcon3} alt="" />
+                            <a href="https://www.vives.be/nl/handelswetenschappen-en-bedrijfskunde/software-development">
+                                <img src={booksIcon} alt="studiesIcon" />
                             </a>
                         </div>
                         <button className="vvd">
