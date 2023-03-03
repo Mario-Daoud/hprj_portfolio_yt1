@@ -48,7 +48,6 @@ export const Projects = () => {
                         Whether it's a website, web application, or software tool, I approach each project with a creative and analytical mindset to deliver high-quality results.
                         Through each project, I have gained invaluable experience in project management, problem-solving, and collaboration, which allows me to deliver exceptional value to my clients and partners.
                         Take a look at my projects and see for yourself the level of excellence I bring to every task.
-
                     </p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                         <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -87,7 +86,7 @@ export const Projects = () => {
                                                     <a href="https://github.com/Mario-Daoud">
                                                         <img src={githubIcon} alt="githubIcon" style={{ width: '64px', height: '64px' }} />
                                                     </a>
-                                                    <Card.Text style={{ paddingLeft: '10px' }}>Check out my github account for more projects!</Card.Text>
+                                                    <Card.Text style={{ paddingLeft: '10px' }}>Check out my github account for more information and projects!</Card.Text>
                                                 </Card.Body>
                                             </Card>
                                         </Col>
