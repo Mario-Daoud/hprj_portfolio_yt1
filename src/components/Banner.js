@@ -49,7 +49,7 @@ const tick = () => {
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Mario Daoud `}<br/><span className="wrap">{text}</span></h1>
                         <p>I'm a second year software developing student at VIVES Hogeschool, Campus Kortrijk.</p>
-                        <button onClick={() => console.log('connect')}>Let's connect! <ArrowRightCircle size={25} /></button>
+                        <button onClick={() => console.log('connect')}>Let's connect!<ArrowRightCircle size={25} /></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alt="Header image" />
