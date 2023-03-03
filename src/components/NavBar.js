@@ -4,6 +4,11 @@ import logo from '../assets/img/MDlogo.png';
 import linkedInIcon from '../assets/img/nav-icon1.svg';
 import githubIcon from '../assets/img/nav-icon-4.png';
 import booksIcon from '../assets/img/studies.png';
+import { HashLink } from 'react-router-hash-link';
+import {
+  BrowserRouter as Router
+} from "react-router-dom";
+
 
 export const NavBar = () => {
 
@@ -29,6 +34,8 @@ export const NavBar = () => {
     }
 
     return (
+        <Router>
+
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
                 <Navbar.Brand href="#home">
@@ -66,5 +73,6 @@ export const NavBar = () => {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
+        </Router>
     )
 }
