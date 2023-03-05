@@ -23,14 +23,14 @@ The following coding languages have been used in this project:
 
 The following implementations have been used in this project:
 
-- react-bootstrap: component library
-- react-on-screen: Trackvisibility (load animation on visibility)
-- animate.css: animations
+- react-bootstrap
+- react-on-screen
+- animate.css
 - react-multi-carousel/lib/styles.css
-- react-multi-carousel: Carousel (carousel type list with left right arrows)
-- react-mailchimp-subscribe: MailchimpSubscribe, MailchimpForm (newsletter subscription)
-- react-router-hash-link: HashLink (smooth page navigation)
-- react-router-dom: Router (easier pathing)
+- react-multi-carousel
+- react-mailchimp-subscribe
+- react-router-hash-link
+- react-router-dom
 
 
 ## Project Goal
